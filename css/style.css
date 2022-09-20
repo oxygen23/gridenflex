@@ -624,6 +624,9 @@ span {
   text-align: center;
 }
 .sixth-section__cards-back_suptitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 24px;
   width: 55%;
 }
@@ -633,6 +636,7 @@ span {
   margin-bottom: 17px;
 }
 .sixth-section__cards-back_about {
+  font-size: 18px;
   margin-bottom: 50px;
   height: 264px;
 }
@@ -747,6 +751,13 @@ span {
 }
 .eighth-section__nav-bar {
   margin-bottom: 25px;
+}
+.eighth-section__nav-bar__list {
+  text-align: center;
+}
+.eighth-section__nav-bar__item-span {
+  margin: 0 6px;
+  color: #7E7F86;
 }
 .eighth-section__cards {
   width: 100%;
@@ -1164,7 +1175,7 @@ span {
   }
   .sixth-section__cards-back_about {
     height: 320px;
-    font-size: 16px;
+    font-size: 17px;
     margin-bottom: 25px;
   }
   .sixth-section__cards-back_price {
@@ -1256,8 +1267,8 @@ span {
     border-bottom-left-radius: 30px;
     background-color: rgba(246, 249, 255, 0.9);
   }
-  .first-section__nav-bar__item:not(:last-child):after {
-    content: none;
+  .first-section__nav-bar__item-span {
+    display: none;
   }
   .first-section__nav-bar__item:not(:last-child) {
     margin-bottom: 20px;
@@ -1401,6 +1412,9 @@ span {
   .sixth-section__cards-item:not(:last-child) {
     margin-bottom: 40px;
   }
+  .sixth-section__cards-back_about {
+    font-size: 17px;
+  }
   .seventh-section__icons_blocks {
     display: flex;
     justify-content: space-between;
@@ -1514,6 +1528,9 @@ span {
     width: 100px;
     height: 100px;
   }
+  .eighth-section__nav-bar__item-span:nth-child(6) {
+    display: none;
+  }
 }
 @media (max-width: 425px) {
   .container {
@@ -1580,6 +1597,9 @@ span {
   .sixth-section__cards-back_suptitle {
     width: 80%;
   }
+  .sixth-section__cards-back_about {
+    font-size: 16px;
+  }
   .sixth-section__cards-price {
     font-size: 24px;
   }
@@ -1615,6 +1635,11 @@ span {
     height: 300px;
     justify-content: space-evenly;
     flex-direction: column;
+  }
+}
+@media (max-width: 360px) {
+  .sixth-section__cards-back_about {
+    font-size: 15px;
   }
 }
 @media (max-width: 320px) {
@@ -1698,5 +1723,14 @@ span {
   }
   .eighth-section__cards__block {
     padding-left: 20px;
+  }
+  .eighth-section__nav-bar__item-span {
+    margin: 0 4px;
+  }
+  .eighth-section__nav-bar__item-span:nth-child(6) {
+    display: inline-block;
+  }
+  .eighth-section__nav-bar__item-span:nth-child(4) {
+    display: none;
   }
 }

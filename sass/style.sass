@@ -528,6 +528,9 @@ span
                 margin-bottom: 20px
                 text-align: center
             &_suptitle
+                display: flex
+                flex-direction: column
+                align-items: center
                 font-size: 24px
                 width: 55%
                 &-hr
@@ -535,6 +538,7 @@ span
                     border: 1px solid white
                     margin-bottom: 17px
             &_about
+                font-size: 18px
                 margin-bottom: 50px
                 height: 264px   
             &_price
@@ -626,6 +630,11 @@ span
         margin-bottom: 13px
     &__nav-bar
         margin-bottom: 25px
+        &__list
+            text-align: center
+        &__item-span
+            margin: 0 6px
+            color: $color-gray
     &__cards
         width: 100%
         display: flex
@@ -977,7 +986,7 @@ span
                     width: 84%
                 &_about
                     height: 320px
-                    font-size: 16px
+                    font-size: 17px
                     margin-bottom: 25px
                 &_price
                     font-size: 24px
@@ -1053,8 +1062,9 @@ span
                 border-bottom-right-radius: 30px
                 border-bottom-left-radius: 30px
                 background-color: rgba(246,249,255, .9)
-            &__item:not(:last-child):after
-                content: none
+            &__item
+                &-span
+                    display: none
             &__item:not(:last-child)
                 margin-bottom: 20px
             &__item
@@ -1167,11 +1177,14 @@ span
         &__nav-bar__item
             font-size: 18px
     .sixth-section
-        &__cards-item
-            width: 400px
-            height: 607px
-            &:not(:last-child)
-                margin-bottom: 40px
+        &__cards
+            &-item
+                width: 400px
+                height: 607px
+                &:not(:last-child)
+                    margin-bottom: 40px
+            &-back_about
+                font-size: 17px
     .seventh-section
         &__icons_blocks
             display: flex
@@ -1274,7 +1287,10 @@ span
                     &-item
                         width: 100px
                         height: 100px
-
+    .eighth-section
+        &__nav-bar
+            &__item-span:nth-child(6)
+                display: none
 @media (max-width: 425px)
     .container
         width: 100%
@@ -1327,6 +1343,8 @@ span
                 padding: 23px 30px 22px 38px
                 &_suptitle
                     width: 80%
+                &_about
+                    font-size: 16px
 
             &-price
                 font-size: 24px
@@ -1356,7 +1374,11 @@ span
         height: 300px
         justify-content: space-evenly
         flex-direction: column
-
+@media (max-width: 360px)
+    .sixth-section
+        &__cards-back
+            &_about
+                font-size: 15px
 @media (max-width: 320px)
     .container
         width: 100%
@@ -1429,3 +1451,10 @@ span
         &__cards
             &__block
                 padding-left: 20px
+        &__nav-bar
+            &__item-span
+                margin: 0 4px
+            &__item-span:nth-child(6)
+                display: inline-block
+            &__item-span:nth-child(4)
+                display: none

@@ -64,6 +64,16 @@ $(document).ready(function(){
     });
 });
 
+// $(window).on("scroll", function() {
+// var scroll = $(this).scrollTop();
+// var secondPos = $("#second-section").offset().top;
+// if (scroll >= secondPos ) {
+//   $("#second-section-nav").css("color", "#8643DC").css("font-weight", "600");
+// } else {
+//   $("#second-section-nav").css("color", "#7E7F86");
+// }
+// }) 
+
 SmoothScroll({
   // Время скролла 400 = 0.4 секунды
   animationTime    : 800,

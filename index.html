@@ -7,9 +7,19 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="/css/style.min.css" />
     <meta name="description"
-        content="Веб-студия GridenFLEX - разработка Лендингов, корпоративных сайтов, интернет магазинов за адекватную цену. Разработка сайтов в Москве" />
+        content="Веб-студия GridenFLEX - разработка Лендингов, корпоративных сайтов, интернет магазинов за адекватную цену. Разработка сайтов в СНГ" />
     <meta name="keywords"
         content="Сайт, Сайт цена, Создание сайтов дёшево, заказать сайт, закажи официальный сайт, разработка, создание лендинга, лендинг цена, стоимость лендинга, лендинг услуги, сколько стоит лендинг, веб-студия, сайт, сайт цена, создание сайтов дешево" />
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Веб-студия GridenFLEX">
+    <meta property="og:url" content="https://gridenflex.ru/">
+    <meta property="og:locale" content="ru">
+    <meta property="og:title" content="Веб-студия GridenFLEX">
+    <meta property="og:description"
+        content="Недорогие сайты, высокое качество, кратчайшие сроки">
+    <meta property="og:image" content="https://gridenflex.ru/img/banner.png">
+    <meta property="og:image:width" content="1080">
+    <meta property="og:image:height" content="607">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/d02e031dde.js" crossorigin="anonymous"></script>
     <title>Веб-студия GridenFLEX</title>
@@ -73,7 +83,7 @@
             </div>
             <div class="nav-bar first-section__nav-bar">
                 <nav class="nav-bar__list first-section__nav-bar__list">
-                    <a href="#second-section" class="nav-bar__item first-section__nav-bar__item">Что мы делаем</a>
+                    <a href="#second-section" class="nav-bar__item first-section__nav-bar__item" id="second-section-nav">Что мы делаем</a>
                     <span class="first-section__nav-bar__item-span">/</span>
                     <a href="#third-section" class="nav-bar__item first-section__nav-bar__item">Команда</a>
                     <span class="first-section__nav-bar__item-span">/</span>
@@ -94,7 +104,7 @@
                 <p class="title first-section_left-wrapper__title">
                     Создаём сайты<br />под ключ<br /><span>за 2 недели</span>
                 </p>
-                <a class="button first-section__left-wrapper__button" href="#eighth-section">Заказать сайт</a>
+                <a class="button first-section__left-wrapper__button" href="#nineth-section">Заказать сайт</a>
             </div>
             <div class="first-section__right-wrapper__img">
                 <img src="/img/bg-first.webp" alt="Фон первой секции" />
@@ -459,7 +469,7 @@
                                 от 9 000 руб
                             </div>
                             <div class="sixth-section__cards-front_down-buttons">
-                                <a href="#eighth-section"
+                                <a href="#nineth-section"
                                     class="sixth-section__cards-front_down-buttons_btn-buy blue">Заказать
                                     <hr />
                                 </a><button class="sixth-section__cards-front_down-buttons_btn blue">
@@ -486,7 +496,7 @@
                         </p>
                         <div class="sixth-section__cards-back_price">от 9 000 руб</div>
                         <div class="sixth-section__cards-back_buttons">
-                            <a href="#eighth-section" class="sixth-section__cards-back_buttons-sell buy">Заказать
+                            <a href="#nineth-section" class="sixth-section__cards-back_buttons-sell buy">Заказать
                                 <hr class="sixth-section__cards-back_buttons_hr" />
                             </a><button class="sixth-section__cards-back_buttons-btn blue">
                                 Скрыть
@@ -512,7 +522,7 @@
                                 от 15 000 руб
                             </div>
                             <div class="sixth-section__cards-front_down-buttons">
-                                <a href="#eighth-section"
+                                <a href="#nineth-section"
                                     class="sixth-section__cards-front_down-buttons_btn-buy orange">Заказать
                                     <hr />
                                 </a><button class="sixth-section__cards-front_down-buttons_btn orange">
@@ -540,7 +550,7 @@
                         </p>
                         <div class="sixth-section__cards-back_price">от 15 000 руб</div>
                         <div class="sixth-section__cards-back_buttons">
-                            <a href="#eighth-section" class="sixth-section__cards-back_buttons-sell orange">Заказать
+                            <a href="#nineth-section" class="sixth-section__cards-back_buttons-sell orange">Заказать
                                 <hr class="sixth-section__cards-back_buttons_hr" />
                             </a><button class="sixth-section__cards-back_buttons-btn orange">
                                 Скрыть
@@ -566,7 +576,7 @@
                                 от 24 000 руб
                             </div>
                             <div class="sixth-section__cards-front_down-buttons">
-                                <a href="#eighth-section"
+                                <a href="#nineth-section"
                                     class="sixth-section__cards-front_down-buttons_btn-buy fiol">Заказать
                                     <hr />
                                 </a><button class="sixth-section__cards-front_down-buttons_btn fiol">
@@ -593,7 +603,7 @@
                         </p>
                         <div class="sixth-section__cards-back_price">от 24 000 руб</div>
                         <div class="sixth-section__cards-back_buttons">
-                            <a href="#eighth-section" class="sixth-section__cards-back_buttons-sell">Заказать
+                            <a href="#nineth-section" class="sixth-section__cards-back_buttons-sell">Заказать
                                 <hr class="sixth-section__cards-back_buttons_hr" />
                             </a><button class="sixth-section__cards-back_buttons-btn">
                                 Скрыть
@@ -717,12 +727,15 @@
                     <button class="nav-bar__item eighth-section__nav-bar__item all-btn">
                         Все проекты
                     </button>
+                    <span class="eighth-section__nav-bar__item-span">/</span>
                     <button class="nav-bar__item eighth-section__nav-bar__item land-btn">
                         Лендинги
                     </button>
+                    <span class="eighth-section__nav-bar__item-span">/</span>
                     <button class="nav-bar__item eighth-section__nav-bar__item corp-btn">
                         Корпоративные сайты
                     </button>
+                    <span class="eighth-section__nav-bar__item-span">/</span>
                     <button class="nav-bar__item eighth-section__nav-bar__item shop-btn">
                         Интернет-магазины
                     </button>
