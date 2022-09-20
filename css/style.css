@@ -692,6 +692,7 @@ span {
 .seventh-section__icons_block-item_img {
   display: flex;
   align-items: center;
+  width: 123px;
 }
 .seventh-section__icons_block-item_img::after {
   display: block;
@@ -770,32 +771,32 @@ span {
   margin-bottom: 40px;
 }
 .eighth-section__cards-item:nth-child(1) {
-  background-image: url(/img/mogo.png);
+  background-image: url(/img/mogo.webp);
   background-size: cover;
   background-position: center;
 }
 .eighth-section__cards-item:nth-child(2) {
-  background-image: url(/img/backyard.png);
+  background-image: url(/img/backyard.webp);
   background-size: cover;
   background-position: center;
 }
 .eighth-section__cards-item:nth-child(3) {
-  background-image: url(/img/brightpulse.png);
+  background-image: url(/img/brightpulse.webp);
   background-size: cover;
   background-position: center;
 }
 .eighth-section__cards-item:nth-child(4) {
-  background-image: url(/img/startbootstrap.png);
+  background-image: url(/img/startbootstrap.webp);
   background-size: cover;
   background-position: center;
 }
 .eighth-section__cards-item:nth-child(5) {
-  background-image: url(/img/treviso.png);
+  background-image: url(/img/treviso.webp);
   background-size: cover;
   background-position: center;
 }
 .eighth-section__cards-item:nth-child(6) {
-  background-image: url(/img/rg.png);
+  background-image: url(/img/rg.webp);
   background-size: cover;
   background-position: center;
 }

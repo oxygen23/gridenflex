@@ -100,36 +100,3 @@ var $page = $('html, body');
       return false;
   });
 
-// var line1 = new LeaderLine (
-//   document.getElementById('first-item'),
-//   document.getElementById('second-item'),
-//   {dash: {animation: true,
-//     len: 20, gap: 30},
-//   color:'#8643dc'}
-// )
-// var line2 = new LeaderLine (
-//   document.getElementById('second-item'),
-//   document.getElementById('third-item'),
-//   {dash: {animation: true,
-//     len: 20, gap: 30},
-//   color:'#8643dc'}
-// )
-// var line3 = new LeaderLine (
-//   document.getElementById('third-item'),
-//   document.getElementById('fourth-item'),
-//   {dash: {animation: true,
-//     len: 20, gap: 30},
-//   color:'#8643dc'}
-// )
-
-// line1.setOptions({
-//   startSocket: 'bottom', endSocket: 'top',
-// })
-// line2.setOptions({
-//   startSocket: 'bottom', endSocket: 'right',
-//   startSocketGravity: [-1000,100],
-//   endSocketGravity: [400,-100]
-// })
-// line3.setOptions({
-//   startSocket: 'left', endSocket: 'top'
-// })
