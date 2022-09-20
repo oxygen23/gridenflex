@@ -101,11 +101,6 @@ span {
 .nav-bar__item:hover {
   color: #A638DA;
 }
-.nav-bar__item:not(:last-child):after {
-  display: inline-block;
-  content: "/";
-  padding: 0 15px;
-}
 
 .button {
   display: flex;
@@ -188,6 +183,10 @@ span {
   z-index: 50;
   height: 80px;
   transition: all 0.5s ease-in-out;
+}
+.first-section__nav-bar__item-span {
+  margin: 0 15px;
+  color: #7E7F86;
 }
 .first-section__header-container {
   display: flex;
@@ -1165,7 +1164,7 @@ span {
   }
   .sixth-section__cards-back_about {
     height: 320px;
-    font-size: 19px;
+    font-size: 16px;
     margin-bottom: 25px;
   }
   .sixth-section__cards-back_price {
@@ -1426,9 +1425,6 @@ span {
   .seventh-section__icons_block:not(:last-child) {
     margin-bottom: 60px;
   }
-  .nav-bar__item:not(:last-child):after {
-    padding: 0 6px;
-  }
   .nineth-section__title {
     font-size: 36px;
   }
@@ -1524,7 +1520,7 @@ span {
     width: 100%;
   }
   .title {
-    font-size: 40px;
+    font-size: 30px;
   }
   .first-section {
     height: 85vh;
@@ -1582,7 +1578,7 @@ span {
     padding: 23px 30px 22px 38px;
   }
   .sixth-section__cards-back_suptitle {
-    width: 72%;
+    width: 80%;
   }
   .sixth-section__cards-price {
     font-size: 24px;
