@@ -255,10 +255,7 @@ span {
 }
 .second-section__accordeon_about {
   display: none;
-  padding-left: 41px;
-  padding-top: 35px;
-  padding-right: 42px;
-  padding-bottom: 37px;
+  padding: 35px 42px 37px 41px;
   font-size: 25px;
 }
 .second-section__accordeon_title {
